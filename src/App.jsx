@@ -6,8 +6,8 @@ import './App.css'
 import React from "react";
 import Sidebar from "./assets/components/Sidebar";
 import Header from "./assets/components/Header";
-import OverviewChart from "./assets/components/OverviewChart";
-import AppointmentList from "./assets/components/AppointmentLis";
+import Overview from "./assets/components/OverviewChart";
+import AppointmentList from "./assets/components/AppointmentList";
 import PatientList from "./assets/components/PatientList";
 import './App.css'
 

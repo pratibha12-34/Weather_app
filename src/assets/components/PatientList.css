@@ -1,0 +1,35 @@
+.patient-list {
+  flex: 2;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.filter-section input, .filter-section select {
+  padding: 6px 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+thead {
+  background: #f7f9fb;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #edf2f7;
+}

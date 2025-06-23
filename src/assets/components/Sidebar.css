@@ -1,0 +1,57 @@
+.sidebar {
+  width: 240px;
+  background: white;
+  border-right: 1px solid #e2e8f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.nav-menu, .tools-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #4a5568;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background: #edf2f7;
+  color: #2d3748;
+}
+
+.upgrade-box {
+  background: #f0f4f8;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.upgrade-box button {
+  margin-top: 10px;
+  padding: 6px 10px;
+  background-color: #1a202c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
