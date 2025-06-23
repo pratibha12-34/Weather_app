@@ -3,7 +3,7 @@ import axios from 'axios';
 import './Weather.css';
 
 
-function WeatherApp() {
+export default function App() {
   const [city, setCity] = useState('');
   const [weather, setWeather] = useState(null);
 
@@ -53,4 +53,3 @@ function WeatherApp() {
   );
 }
 
-export default WeatherApp;
